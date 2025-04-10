@@ -1,0 +1,29 @@
+# Arquivos de ambiente
+.env
+*.env.*
+!*.env.example
+
+# Dependências e caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.log*
+
+# Ambientes virtuais (ajuste se usar outro nome)
+venv/
+env/
+.venv/
+*/env/
+*/venv/
+*/.venv/
+
+# Arquivos específicos de IDEs/Editores
+.vscode/
+.idea/
+*.swp
+*~ 
